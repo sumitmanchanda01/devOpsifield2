@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Git Pulling') {
             steps {
-                git branch: 'master', url: 'https://github.com/sumitmanchanda01/devOpsifield2.git'
+                git branch: 'main', url: 'https://github.com/sumitmanchanda01/devOpsifield2.git'
             }
         }
         stage('Init') {
